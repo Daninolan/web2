@@ -1,0 +1,507 @@
+@charset "UTF-8";
+/* start */
+html {
+	overflow-x: hidden;
+}
+ol {
+	list-style-type: none;
+}
+.row {
+	color: #ffffff;
+}
+.row2 a:hover:not(.active) {
+	color: cyan;
+}
+.sizedown {
+	width: 160px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 20% 90% 20% 20%;
+	z-index: 5;
+}
+#siterow {
+	width: 80%;
+	margin: auto;
+	position: relative;
+	color: black;
+	font-weight: bolder;
+}
+.left1 {
+	width: 33%;
+	float: left;
+}
+.left2 {
+	width: 33%;
+	float: left;
+}
+.left3 {
+	width: 33%;
+	float: right;
+}
+.left4 {
+	width: 50%;
+	float: left;
+}
+.left5 {
+	width: 50%;
+	float: right;
+}
+.left6 {
+	clear: both;
+	width: 50%;
+	float: left;
+}
+.left7 {
+	width: 50%;
+	float: right;
+}
+#sizes {
+	width: 60%;
+}
+#sizes1 {
+	width: 90%;
+}
+#sizes2 {
+	width: 80%;
+}
+#sizes3 {
+	width: 100%;
+}
+#sizes4 {
+	width: 100%;
+}
+#sizes5 {
+	width: 100%;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.grad1 {
+	position: relative;
+	height: 200px;
+	width: 99%;
+	max-width: 1600px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+body {
+	margin: 0;
+}
+#sold {
+	width: 100%;
+	max-width: 1600px;
+	position: relative;
+	top: -208px;
+}
+#sold1 {
+	width: 100%;
+	max-width: 1550px;
+}
+#sold2 {
+	width: 200%;
+	max-width: 1600px;
+	position: relative;
+	left: -125%;
+	top: 154px;
+}
+#sold3 {
+	width: 100%;
+	max-width: 1600px;
+	position: relative;
+	left: -15%;
+	top: 36px;
+}
+#sold5 {
+	position: relative;
+	top: -200px;
+	z-index: 5;
+}
+#sol {
+	width: 100%;
+	position: relative;
+	top: 10px;
+}
+#sol2 {
+	position: relative;
+	top: 10px;
+}
+#title {
+	position: relative;
+	width: 100%;
+	border: 2px solid black;
+	z-index: 1;
+}
+#title2 {
+	text-align: center;
+	font-size: 80px;
+	position: relative;
+	top: -195px;
+	color: #FFFFFF;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	font-family: "konquer Regular";
+	z-index: 2;
+}
+#title3 {
+	text-align: center;
+	font-size: 80px;
+	position: relative;
+	top: 7px;
+	color: #933AF5;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	font-family: "konquer Regular";
+	z-index: 2;
+}
+.title3 {
+	text-align: center;
+	font-size: 80px;
+	position: relative;
+	top: 7px;
+	color: #933AF5;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	font-family: "konquer Regular";
+	z-index: 2;
+}
+.cols1 {
+	position: relative;
+	top: -200px;
+}
+.cols2 {
+	position: relative;
+	top: 0px;
+	left: 1%;
+}
+.col2 {
+	width: 100%;
+	float: left;
+	padding: 0 1% 0% 1%;
+	/* adding boarder */
+	background-color: #4B0082;
+	border-radius: 5px;
+	border: 5px solid black;
+	color: White;
+}
+.col2 ol {
+	list-style-type: none;
+	width: 105%;
+	position: relative;
+	left: -10%;
+}
+.col2 a {
+	color: white;
+	text-decoration: none;
+}
+/* setting width of coloum to side up the images in the box */
+.linkbox1 {
+	width: 90%;
+}
+/* setting with of coloums */
+#useful {
+	width: 102%;
+	background-color: black;
+	top: 10%;
+	text-align: center;
+	position: relative;
+	left: -1%;
+}
+.linkbox2 {
+	border-radius: 5px;
+	border: 3px solid black;
+	color: White;
+	width: 112%;
+	position: relative;
+	left: -7%;
+}
+.columnsContainer, footer {
+	position: relative;
+	margin: .5em;
+}
+.leftColumn, .rightColumn, footer {
+	padding: 1.25em;
+}
+.leftColumn1, .rightColumn1 {
+}
+.leftColumn {
+	margin-bottom: .5em;
+}
+.inline-items {
+	margin-top: 0;
+}
+.inline-items li {
+	margin-left: 0;
+	border-left: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.inline-items li:first-child {
+	margin-left: 0;
+	border: none;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.inline-items li:last-child {
+	padding-right: 0;
+}
+@font-face {
+	font-family: konquer-Regular;
+	src: url('fonts/konquer-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+/* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+}
+.navbar-nav {
+	margin: 0 auto;
+	list-style: none;
+}
+.navbar-nav li {
+	float: left;
+}
+.navbar-nav a {
+	display: block;
+	text-align: center;
+	padding: 0px;
+	height: 20px;
+	width: 145px;
+	text-decoration: none;
+}
+.navbar-nav a:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.navbar-custom {
+	background-color: #581FE5;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+.dropdown:hover>.dropdown-menu {
+	display: block;
+	color: #FFFFFF;
+}
+.dropdown-menu {
+	background-color: #581FE5;
+	color: #FFFFFF;
+}
+.dropdown-menu a {
+	background-color: #581FE5;
+	color: #FFFFFF;
+}
+.navbar-custom ul li a {
+	float: left;
+	text-align: center;
+	position: relative;
+	top: -2px;
+}
+.navbar-dark .nav-item .nav-link {
+	color: #FFFFFF;
+}
+.navbar-dark .nav-item:hover .nav-link {
+	color: #F8FF00;
+	background-color: #000000;
+}
+.navbar-dark .nav-item.active .nav-link {
+	color: #FFFD00;
+	font-weight: bold;
+}
+/* adusting footer social media links */
+footer {
+	background-color: #581FE5;
+	color: #FFFFFF;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 145px;
+	width: 100%;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer nav ul {
+	list-style-type: none;
+	padding: 0 0;
+}
+footer nav ul li {
+	display: inline;
+}
+footer nav ul li a {
+	padding: 0 1%;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+	padding: 60px 0;
+}
+.move {
+	display: inline-block;
+	clear: both;
+	position: relative;
+	left: 28%;
+}
+.move ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.move li {
+	float: left;
+}
+.move li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+section .section-title {
+	text-align: center;
+	color: #007b5e;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+#footer {
+	background: #581FE5 !important;
+	clear: both;
+}
+#footer h5 {
+	padding-left: 10px;
+	border-left: 3px solid #eeeeee;
+	padding-bottom: 6px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+#footer a {
+	color: #ffffff;
+	text-decoration: none !important;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+#footer ul.social li {
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+	margin-right: 5px;
+	font-size: 25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size: 30px;
+	margin-top: -10px;
+}
+#footer ul.social li a, #footer ul.quick-links li a {
+	color: #ffffff;
+}
+#footer ul.social li a:hover {
+	color: #eeeeee;
+}
+#footer ul.quick-links li {
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover {
+	padding: 3px 0;
+	margin-left: 5px;
+	font-weight: 700;
+}
+#footer ul.quick-links li a i {
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+	font-weight: 700;
+}
+
+@media (max-width:767px) {
+#footer h5 {
+	padding-left: 0;
+	border-left: transparent;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+/* Navigation */
+	/* i adjusted all the stuff inside here to resize properly when the screen was made small like a tablet or phone
+	so this way it didnt lose any value or distort once made too small the images would be too big so i made
+	most of them a lot smaller than they would be*/
+.col2 {
+	position: relative;
+	top: -260px;
+	width: 100%;
+	height: 280px;
+	float: left;
+	padding: 0 1% 0% 1%;
+	/* adding boarder */
+	background-color: #4B0082;
+	border-radius: 5px;
+	border: 5px solid black;
+	color: White;
+}
+.col2 ol {
+	list-style-type: none;
+	width: 100%;
+	position: relative;
+	left: -4%;
+	top: -15px;
+}
+.col2 a {
+	color: white;
+	text-decoration: none;
+}
+/* setting width of coloum to side up the images in the box */
+.linkbox1 {
+	width: 90%;
+}
+/* setting with of coloums */
+#useful {
+	width: 54%;
+	background-color: black;
+	top: -1%;
+	text-align: center;
+	position: relative;
+	left: 23.5%;
+}
+.linkbox2 {
+	border-radius: 5px;
+	border: 3px solid black;
+	color: White;
+	width: 112%;
+	position: relative;
+	left: -7%;
+}
+.move {
+	display: inline-block;
+	clear: both;
+	position: relative;
+	left: 6%;
+}
+}
+
+@media screen and (min-width: 800px ) {
+.leftColumn {
+}
+.rightColumn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 18.75em;
+}
+}

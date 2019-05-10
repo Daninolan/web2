@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: lavender;
+}
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+}
+checkbox {
+	background-color: lightblue;
+}
+input[type="submit"] {
+	width: 13em;
+}
+button[type="reset"] {
+	width: 13em;
+}
+.boop {
+	position: relative;
+	left: 25%;
+}
+.circle2 {
+	float: right;
+}
+fieldset {
+	border-radius: 5px;/*	background-color: rgb(250,0,100);
+	opacity: 0.5; */
+}
+.circle {
+	font-size: 22px;
+	background-color: lightgray
+}
+legend {
+	color: red;
+}
+#big {
+	font-size: 40px;
+}
+#big2 {
+	font-size: 30px;
+}
+#gray {
+	background-color: lightgray;
+}
+#gray3 {
+	background-color: lightgray;
+}
+.blue2 {
+	color: blue;
+}
+#gray2 {
+	background-color: gray;
+}
+#green {
+	background-color: lightgreen;
+}
+#blue {
+	background-color: lightblue;
+}
+.reds {
+	border-color: red
+}
+#title {
+	text-align: center;
+	color: red;
+}
+textarea {
+	border-radius: 5%;
+}
+[type] {
+	border-radius: 5%;
+}
